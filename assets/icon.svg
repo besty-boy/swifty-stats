@@ -1,4 +1,23 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64">
-  <rect width="64" height="64" rx="14" fill="#dc2626"/>
-  <text x="32" y="32" dy="0.35em" text-anchor="middle" font-family="ui-sans-serif, system-ui, -apple-system, sans-serif" font-size="26" font-weight="600" fill="#ffffff">SS</text>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 128 128">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#171f30"/>
+      <stop offset="100%" stop-color="#263352"/>
+    </linearGradient>
+    <radialGradient id="glow" cx="50%" cy="14%" r="65%">
+      <stop offset="0%" stop-color="#59a6ff" stop-opacity="0.22"/>
+      <stop offset="100%" stop-color="#59a6ff" stop-opacity="0"/>
+    </radialGradient>
+  </defs>
+  <rect x="8" y="8" width="112" height="112" rx="26" fill="url(#bg)"/>
+  <rect x="8" y="8" width="112" height="112" rx="26" fill="url(#glow)"/>
+  <rect x="8" y="8" width="112" height="112" rx="26" fill="none" stroke="#ffffff" stroke-opacity="0.16" stroke-width="1.5"/>
+  <!-- Bar tracks -->
+  <rect x="29" y="34" width="17" height="60" rx="6" fill="#ffffff" fill-opacity="0.09"/>
+  <rect x="55.5" y="34" width="17" height="60" rx="6" fill="#ffffff" fill-opacity="0.09"/>
+  <rect x="82" y="34" width="17" height="60" rx="6" fill="#ffffff" fill-opacity="0.09"/>
+  <!-- Bar fills: CPU blue, RAM purple, Temp orange -->
+  <rect x="29" y="68" width="17" height="26" rx="6" fill="#52adff"/>
+  <rect x="55.5" y="53" width="17" height="41" rx="6" fill="#ad7aff"/>
+  <rect x="82" y="61" width="17" height="33" rx="6" fill="#ff9e3d"/>
 </svg>
